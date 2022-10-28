@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link rel="stylesheet" href="reset.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <header>
+    <img src="img/logo1.png">
+    <img src="">
+  </header>
+
+  <main class="chat">
+
+    <div class="notificacoes msgStatus">
+      <p class="hora"> (12:21:45)</p>
+      <p><b>João</b> entra na sala</p>
+    </div>
+
+    <!-- <div class="notificacoes msgNormal">
+      <p class="hora"> (12:21:45)</p>
+      <p class="msg"><b>João</b> para <b>Todos</b>: Bom dia</p>
+    </div> -->
+
+   
+    <div class="notificacoes msgReservada">
+      <p class="hora"> (12:21:45)</p>
+      <p><b>João</b> reservadamente para <b>Maria</b>: Oi gatinha quer tc?</p>
+    </div>
+
+    <div class="notificacoes msgStatus">
+      <p class="hora"> (12:21:45)</p>
+      <p><b>Maria</b> sai da sala...</p>
+    </div>
+
+  </main>
+
+  <footer>
+    <input id="mensagemDigitada" placeholder="Escreva aqui...">
+    <img onclick="enviarMensagem()" src="img/enviar.png">
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+  <script src="script.js"></script>
+
+  <!-- <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> -->
+
+</body>
+
+</html>
