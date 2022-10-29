@@ -1,75 +1,76 @@
 body{
-    width: 375px;
-    height: 667px;
-    margin: auto;
-    font-family: 'Roboto', sans-serif;
-   border: solid 1px #ebe8e8;
-  }
-  
-  header{
-    height:80px;
-    width:100%;
-    background-color: #FFFFFF;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  header img{
-    padding: 22px;
-  }
-  
-  main{
-    width: 100%;
-    height: 480px;
-    background-color: #ebe8e8;
-    padding-top:26px;
-    font-size:14px;
-    font-weight:400;
-    overflow-y: scroll;
-  }
-  .notificacoes{
-    display: flex;
-    align-items: center;
-    margin-top: 4px;
-   
-  }
-  .notificacoes p{
-    padding-left: 8px;
-  }
-  .msgStatus{
-    background-color: #DCDCDC;
-  }
-  .msgNormal{
-    background-color: #FFFFFF;
-  }
-  .msgReservada{
-    background-color: #FFDEDE;
-  }
-  
-  footer{
-    width:100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  footer img{
-    padding: 27px;
-  }
-  footer input{
-    border: none;
-    padding: 17px;
-    font-size:18px;
-    color: #000000;
-    opacity: 100;
-    font-style: italic;
-    font-weight: 400;
-    outline: 0;
-   
-  }
- footer img{
-  cursor: pointer;
- }
- footer img:hover{
-  filter:invert(30%);
- }
+  width: 375px;
+  height: 667px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+ border: solid 1px #ebe8e8;
+}
+
+header{
+  height:80px;
+  width:100%;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header img{
+  padding: 22px;
+}
+
+main{
+  width: 100%;
+  height: 480px;
+  background-color: #ebe8e8;
+  padding-top:26px;
+  font-size:14px;
+  font-weight:400;
+  overflow-y: scroll;
+}
+.notificacoes{
+  display: flex;
+  align-items: center;
+  margin-top: 4px;
+  min-height: 50px;
+ 
+}
+.notificacoes p{
+  padding-left: 8px;
+}
+.msgStatus{
+  background-color: #DCDCDC;
+}
+.msgNormal{
+  background-color: #FFFFFF;
+}
+.msgReservada{
+  background-color: #FFDEDE;
+}
+
+footer{
+  width:100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer img{
+  padding: 27px;
+}
+footer input{
+  border: none;
+  padding: 17px;
+  font-size:18px;
+  color: #000000;
+  opacity: 100;
+  font-style: italic;
+  font-weight: 400;
+  outline: 0;
+ 
+}
+footer img{
+cursor: pointer;
+}
+footer img:hover{
+filter:invert(30%);
+}
